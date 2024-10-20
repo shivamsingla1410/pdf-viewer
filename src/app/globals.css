@@ -1,0 +1,31 @@
+.pdf-viewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.navigation {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.navigation button {
+  margin: 0 5px;
+}
+
+.bookmarks {
+  margin-top: 20px;
+}
+
+.bookmarks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bookmarks li {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
